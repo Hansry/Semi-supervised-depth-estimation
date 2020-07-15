@@ -10,7 +10,9 @@ Our network is trained with the KITTI dataset alone, without pretraining on City
 &emsp; &emsp;torchvision 0.2.1  
 &emsp; &emsp;python 3.5.6  
 
-- Download the [KITTI Depth](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) Dataset and the corresponding RGB images (script will be released). 
+- Download the [KITTI Depth](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) Dataset and we use the `2011_09_26_drive_0002_sync`, `2011_09_26_drive_0014_sync`,`2011_09_26_drive_0020_sync`,`2011_09_26_drive_0079_sync`,`2011_09_29_drive_0071_sync`,`2011_09_30_drive_0033_sync`,
+`2011_10_03_drive_0042_sync` as val dataset and others as train dataset.
+
 - The code, data and result directory structure is shown as follows
 ```
 ├── semi-supervised-depth-completion
